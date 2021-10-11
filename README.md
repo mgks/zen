@@ -1,0 +1,2 @@
+# zen
+the wisdom repo.
