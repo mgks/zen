@@ -26,4 +26,4 @@
 
 > The Tao does not speak. The Tao does not blame. The Tao does not take sides. The Tao has no expectations. The Tao demands nothing of others. The Tao is not Jewish.
 
-> Never Test The Depth Of Water With Both Feet.
+> Never test the depth of water with both feet.
