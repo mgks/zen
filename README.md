@@ -25,5 +25,3 @@
 > Generally speaking, you aren’t learning much when your lips are moving.
 
 > The Tao does not speak. The Tao does not blame. The Tao does not take sides. The Tao has no expectations. The Tao demands nothing of others. The Tao is not Jewish.
-
-> Never test the depth of water with both feet.
