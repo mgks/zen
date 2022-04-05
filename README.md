@@ -2,11 +2,11 @@
   <a href="https://github.com/mgks/zen"><img width="250" src="https://raw.githubusercontent.com/mgks/mgks/main/res/zen.gif" ref="Zen by QTQR8R - http://www.ivyiby.com/zen"></a>
 </p>
 
-> Before you criticize someone, you should walk a mile in their shoes. That way, when you criticize them, you’re a mile away and you have their shoes.
+> <span title="Jack Handy">Before you criticize someone, you should walk a mile in their shoes. That way, when you criticize them, you’re a mile away and you have their shoes.</span>
 
-> If you tell the truth, you never have to remember anything.
+> <span title="Mark Twain">If you tell the truth, you never have to remember anything.</span>
 
-> Some days you’re the bug; some days you’re the windshield.
+> <span title="Steven Tyler">Some days you’re the bug; some days you’re the windshield.</span>
 
 > If you ever feel you are worthless remember that you are full of expensive organs.
 
