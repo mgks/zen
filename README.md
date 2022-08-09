@@ -1,10 +1,12 @@
 <p align="center">
+  <b>Your ultimate guide to life lessons.</b>
+</p>
+<br />
+<p align="center">
   <a href="https://github.com/mgks/zen"><img width="250" src="https://raw.githubusercontent.com/mgks/mgks/main/res/zen.gif" ref="Zen by QTQR8R - http://www.ivyiby.com/zen"></a>
 </p>
 
-# Your ultimate guide to life lessons.
-
-<br><b>
+<br /><b>
 
 > <span title="Jack Handy">Before you criticize someone, you should walk a mile in their shoes. That way, when you criticize them, you’re a mile away and you have their shoes.</span>
 
@@ -33,5 +35,7 @@
 > <span title="Rose (Betty White), 'The Golden Girls'">My mother always used to say: The older you get, the better you get, unless you’re a banana.</span>
 
 > Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to 'fall asleep right now'.
+
+> I walk around like everything’s fine, but deep down, inside my shoe, my sock is sliding off.
 
 </b>
