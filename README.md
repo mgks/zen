@@ -38,4 +38,6 @@
 
 > I walk around like everything’s fine, but deep down, inside my shoe, my sock is sliding off.
 
+> <span title="Rodney Dangerfield">I haven't spoken to my wife in years. I didn't want to interrupt her.</span>
+
 </b>
