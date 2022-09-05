@@ -52,4 +52,6 @@
   
 > <span title="Lucille Ball">The secret of staying young is to live honestly, eat slowly, and lie about your age.</span>
 
+> <span title="Judith Martin">If you can’t be kind, at least be vague.</span>
+
 </b>
