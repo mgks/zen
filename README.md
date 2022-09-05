@@ -44,4 +44,6 @@
 
 > <span title="Phyllis Diller">Never go to bed mad. Stay up and fight.</span>
 
+> Friends are God’s way of apologizing to us for our families.
+
 </b>
