@@ -62,4 +62,6 @@
 
 > <span title="Redd Fox">Health nuts are going to feel stupid someday, lying in hospitals dying of nothing.</span>
 
+> <span title="Mark Twain">Be careful about reading health books. You may die of a misprint.</span>
+
 </b>
