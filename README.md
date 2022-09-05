@@ -58,10 +58,12 @@
 
 > <span title="Charlie Brown">Sometimes you lie in bed at night and you don’t have a single thing to worry about. That always worries me!</span>
 
-> <span title="Yogi Berra">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, ‘Four. I don’t think I can eat eight.</span>
+> <span title="Yogi Berra">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, "Four. I don't think I can eat eight."</span>
 
 > <span title="Redd Fox">Health nuts are going to feel stupid someday, lying in hospitals dying of nothing.</span>
 
 > <span title="Mark Twain">Be careful about reading health books. You may die of a misprint.</span>
+
+> <span title="B. Birdsong">It is useless to try to hold a person to anything he says while he’s madly in love, drunk, or running for office.</span>
 
 </b>
