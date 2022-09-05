@@ -42,4 +42,6 @@
 
 > <span title="Rodney Dangerfield">I haven't spoken to my wife in years. I didn't want to interrupt her.</span>
 
+> <span title="Phyllis Diller">Never go to bed mad. Stay up and fight.</span>
+
 </b>
