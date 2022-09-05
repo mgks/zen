@@ -58,4 +58,6 @@
 
 > <span title="Charlie Brown">Sometimes you lie in bed at night and you don’t have a single thing to worry about. That always worries me!</span>
 
+> <span title="Yogi Berra">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, ‘Four. I don’t think I can eat eight.</span>
+
 </b>
