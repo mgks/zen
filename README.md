@@ -56,4 +56,6 @@
 
 > <span title="Dale Carnegie">Any fool can criticize, condemn and complain — and most do.</span>
 
+> <span title="Charlie Brown">Sometimes you lie in bed at night and you don’t have a single thing to worry about. That always worries me!</span>
+
 </b>
