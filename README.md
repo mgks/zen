@@ -54,4 +54,6 @@
 
 > <span title="Judith Martin">If you can’t be kind, at least be vague.</span>
 
+> <span title="Dale Carnegie">Any fool can criticize, condemn and complain — and most do.</span>
+
 </b>
