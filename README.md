@@ -46,4 +46,6 @@
 
 > Friends are God’s way of apologizing to us for our families.
 
+> <span title="George Carlin">If you can’t beat them, arrange to have them beaten.”</span>
+
 </b>
