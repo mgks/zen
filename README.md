@@ -49,5 +49,7 @@
 > <span title="George Carlin">If you can’t beat them, arrange to have them beaten.</span>
 
 > <span title="Edgar Bergen">Hard work never killed anybody, but why take a chance?</span>
+  
+> <span title="Lucille Ball">The secret of staying young is to live honestly, eat slowly, and lie about your age.</span>
 
 </b>
