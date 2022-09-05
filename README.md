@@ -60,4 +60,6 @@
 
 > <span title="Yogi Berra">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, ‘Four. I don’t think I can eat eight.</span>
 
+> <span title="Redd Fox">Health nuts are going to feel stupid someday, lying in hospitals dying of nothing.</span>
+
 </b>
