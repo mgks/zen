@@ -32,6 +32,8 @@
 
 > The Tao does not speak. The Tao does not blame. The Tao does not take sides. The Tao has no expectations. The Tao demands nothing of others. The Tao is not Jewish.
 
+> <span title="Socrates">My advice to you is get married: If you find a good wife you’ll be happy; if not, you’ll become a philosopher.</span>
+
 > <span title="Rose (Betty White), 'The Golden Girls'">My mother always used to say: The older you get, the better you get, unless you’re a banana.</span>
 
 > Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to 'fall asleep right now'.
