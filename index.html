@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zen - Random Quote Generator</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="src/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/ico/favicon-16x16.png">
+  <link rel="manifest" href="src/ico/site.webmanifest">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0WNFTY96Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z0WNFTY96Z');
+  </script>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="light-mode">
+  <div class="container">
+    <div class="header">
+      <a href="#" class="logo" onclick="loadQuote()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="4.985 5.002 38.037 37.998" fill="currentColor"><path d="M23.688 5.004C16.666 5.17 11 10.942 11 18v11.879l-3.44-3.44a1.5 1.5 0 0 0-1.076-.455 1.5 1.5 0 0 0-1.045 2.577l5.872 5.87a1.5 1.5 0 0 0 2.386-.007l5.864-5.863a1.5 1.5 0 1 0-2.122-2.122L14 29.88V18a9.98 9.98 0 0 1 9.758-9.998 1.5 1.5 0 1 0-.07-2.998m4.806.904a1.5 1.5 0 0 0-.596 2.887c1.04.444 1.99 1.06 2.819 1.814a1.5 1.5 0 1 0 2.02-2.218 13 13 0 0 0-3.66-2.354 1.5 1.5 0 0 0-.583-.129m6.983 7.07a1.5 1.5 0 0 0-1.176.6l-5.862 5.861a1.5 1.5 0 1 0 2.122 2.122L34 18.12V30c0 5.54-4.46 10-10 10a9.93 9.93 0 0 1-6.719-2.61 1.5 1.5 0 1 0-2.017 2.22A12.96 12.96 0 0 0 24 43c7.162 0 13-5.838 13-13V18.121l3.44 3.44a1.5 1.5 0 1 0 2.12-2.122l-5.87-5.87a1.5 1.5 0 0 0-1.213-.59"/></svg> &nbsp; @mgks/zen &nbsp; </a>
+      <div class="buttons">
+        <button id="copy-btn" onclick="copyQuote()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="6.40000057220459 4 25.60000228881836 30.39999771118164" fill="currentColor"><path d="M14.8 4A4.403 4.403 0 0 0 10.399 8.4v17.6a4.403 4.403 0 0 0 4.4 4.4H27.6a4.403 4.403 0 0 0 4.4 -4.4V8.4A4.406 4.406 0 0 0 27.6 4zm-6 4 -0.975 0.65a3.203 3.203 0 0 0 -1.425 2.663v15.487a7.6 7.6 0 0 0 7.6 7.6h10.688a3.203 3.203 0 0 0 2.662 -1.425l0.65 -0.974H14a5.2 5.2 0 0 1 -5.2 -5.2z"/></svg></button>
+
+        <button id="mute-btn" onclick="toggleAudio()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="2.4 2.4 14.4 14.4"><path d="M11.2 7.688V5.6h1.6c0.88 0 1.6 -0.72 1.6 -1.6s-0.72 -1.6 -1.6 -1.6h-2.4a0.803 0.803 0 0 0 -0.8 0.8v2.888zM4.096 2.848a0.797 0.797 0 1 0 -1.128 1.128L9.6 10.615v0.224c-0.752 -0.432 -1.68 -0.6 -2.664 -0.256 -1.072 0.384 -1.896 1.336 -2.088 2.456a3.206 3.206 0 0 0 3.672 3.72c1.568 -0.248 2.68 -1.688 2.68 -3.28v-1.264l4.016 4.016a0.797 0.797 0 1 0 1.128 -1.128z"/></svg></button>
+
+        <button id="mode-btn" onclick="toggleMode()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="1.6 1.6 16 16" fill="currentColor"><path d="M5.6 9.6c0 2.24 1.76 4 4 4s4-1.76 4-4-1.76-4-4-4-4 1.76-4 4m4-2.4c1.36 0 2.4 1.04 2.4 2.4S10.96 12 9.6 12s-2.4-1.04-2.4-2.4 1.04-2.4 2.4-2.4m.8-3.2V2.4c0-.48-.32-.8-.8-.8s-.8.32-.8.8V4c0 .48.32.8.8.8s.8-.32.8-.8m4.88-.08a.773.773 0 0 0-1.12 0l-1.12 1.12c-.32.32-.32.8 0 1.12.16.16.4.24.56.24s.4-.08.56-.24l1.12-1.12c.32-.24.32-.8 0-1.12M16.8 8.8h-1.6c-.48 0-.8.32-.8.8s.32.8.8.8h1.6c.48 0 .8-.32.8-.8s-.32-.8-.8-.8m-2.64 4.16c-.32-.32-.8-.32-1.12 0s-.32.8 0 1.12l1.12 1.12c.16.16.4.24.56.24s.4-.08.56-.24c.32-.32.32-.8 0-1.12zM8.8 15.2v1.6c0 .48.32.8.8.8s.8-.32.8-.8v-1.6c0-.48-.32-.8-.8-.8s-.8.32-.8.8m-4.88.08c.16.16.4.24.56.24s.4-.08.56-.24l1.12-1.12c.32-.32.32-.8 0-1.12s-.8-.32-1.12 0l-1.12 1.12c-.32.24-.32.8 0 1.12M1.6 9.6c0 .48.32.8.8.8H4c.48 0 .8-.32.8-.8s-.32-.8-.8-.8H2.4c-.48 0-.8.32-.8.8m3.44-5.68c-.32-.32-.8-.32-1.12 0s-.32.8 0 1.12l1.12 1.12c.16.24.4.32.64.32s.4-.08.56-.24c.32-.32.32-.8 0-1.12z"/></svg></button>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      <div id="quote">If you tell the truth, you never have to remember anything.</div>
+      <div id="author">- Mark Twain</div>
+    </div>
+    <button id="share-btn" onclick="shareContent()"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 0.72 0.72" data-name="" fill="currentColor"><path d="m.651.339-.24-.24A.03.03 0 0 0 .36.12v.106a.33.33 0 0 0-.3.329V.6a.03.03 0 0 0 .054.019.34.34 0 0 1 .237-.121l.01-.001V.6a.03.03 0 0 0 .051.021l.24-.24a.03.03 0 0 0 0-.042M.42.528V.465a.03.03 0 0 0-.03-.03L.343.438a.4.4 0 0 0-.222.088A.27.27 0 0 1 .39.285a.03.03 0 0 0 .03-.03V.192L.588.36Z"></path></svg></button>
+  </div>
+  <div class="footer"><a href="https://github.com/mgks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="1.0166668891906738 2.9749999046325684 21.966665267944336 20.024999618530273"><path d="M7 3c-1.535 0-3.078.5-4.25 1.7-2.343 2.4-2.279 6.1 0 8.5L12 23l9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-.75.8-.75-.8C10.078 3.5 8.536 3 7 3" fill="#e74c3c"/></svg> Developed by @mgks</a> | <a href="https://github.com/mgks/zen">GitHub Repo</a></div>
+  <script src="src/script.js"></script>
+</body></html>
