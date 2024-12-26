@@ -2,6 +2,7 @@ const quotes = [];
 let currentQuote = {};
 let audio = null;
 let isMuted = true;
+let appURL = "https://mgks.github.io/zen";
 
 // load quotes from JSON
 async function loadQuotes() {
@@ -47,7 +48,7 @@ function displayQuote() {
 
 // copy quote to clipboard
 function copyQuote() {
-  navigator.clipboard.writeText(`${currentQuote.quote} - ${currentQuote.author}`).then(() => {
+  navigator.clipboard.writeText(`${currentQuote.quote} - ${currentQuote.author}\n\n${appURL}#clip`).then(() => {
     const copyBtn = document.getElementById('copy-btn');
     copyBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="2.384 4.795 15.237 9.606" fill="currentColor"><g><g><path d="M13.296 4.968a0.8 0.8 0 0 0 -1.128 0.136l-5.6 7.2 -2.744 -3.344a0.8 0.8 0 1 0 -1.248 1l3.336 4.144a0.8 0.8 0 0 0 0.624 0.296 0.8 0.8 0 0 0 0.664 -0.304l6.264 -8a0.8 0.8 0 0 0 -0.168 -1.128m4 0a0.8 0.8 0 0 0 -1.128 0.136l-5.6 7.2 -0.488 -0.6 -1.008 1.296 0.88 1.096a0.8 0.8 0 0 0 0.624 0.296 0.8 0.8 0 0 0 0.624 -0.304l6.264 -8a0.8 0.8 0 0 0 -0.168 -1.12"/><path d="M6.968 10.448 8 9.152l-0.16 -0.192a0.8 0.8 0 0 0 -1.144 -0.16 0.8 0.8 0 0 0 -0.12 1.128z"/></g></g></svg>';
     setTimeout(() => {
@@ -93,7 +94,7 @@ function shareContent() {
       });
   } else {
       // fallback for desktop devices (opens twitter share URL in a new tab)
-      const twitterUrl = 'https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(currentUrl)}';
+      const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(currentUrl)}#share`;
       window.open(twitterUrl, '_blank');
   }
 }
